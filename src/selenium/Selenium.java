@@ -19,10 +19,10 @@ public class Selenium {
         WebDriver driver = new FirefoxDriver();
         
         //acessa um site
-        driver.get("http://amavi.org.br");
+        driver.get("http://google.com.br");
         
         //digita no campo com o a pesquisa
-        WebElement campoDeTexto = driver.findElement(By.name("s"));
+        WebElement campoDeTexto = driver.findElement(By.name("q"));
         campoDeTexto.sendKeys("UNIDAVI");
         
         //submete form
