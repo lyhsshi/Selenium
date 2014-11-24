@@ -21,7 +21,7 @@ public class Selenium {
         //acessa um site
         driver.get("http://google.com.br");
         
-        //digita no campo com o a pesquisa
+        //digita no campo com o a pesquisaaa
         WebElement campoDeTexto = driver.findElement(By.name("q"));
         campoDeTexto.sendKeys("UNIDAVI");
         
