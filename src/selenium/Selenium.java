@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  *
- * @author Aline
+ * @author Aline Salla
  */
 public class Selenium {
 
