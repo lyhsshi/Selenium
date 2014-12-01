@@ -22,13 +22,15 @@ public class Patricia_Face {
         
         //Coloca a senha do login
         WebElement campoDeTexto2 = driver.findElement(By.id("pass"));
-        campoDeTexto2.sendKeys("84976005");
+        campoDeTexto2.sendKeys("xxxx");
          
         driver.findElement(By.id("u_0_l")).click();    
         
+          Thread.sleep(10000);
+        
          //escreve no Teste de Selenium          
         WebElement campoTexto4 = driver.findElement(By.id("u_0_w"));
-        campoTexto4.sendKeys("Teste de Selenium 2");
+        campoTexto4.sendKeys("Teste de Selenium 3");
         campoTexto4.submit();
         
     }
