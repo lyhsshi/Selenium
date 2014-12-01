@@ -26,9 +26,9 @@ public class Patricia_Face {
          
         driver.findElement(By.id("u_0_l")).click();    
         
-                        
+         //escreve no Teste de Selenium          
         WebElement campoTexto4 = driver.findElement(By.id("u_0_w"));
-        campoTexto4.sendKeys("Teste de Selenium");
+        campoTexto4.sendKeys("Teste de Selenium 2");
         campoTexto4.submit();
         
     }
