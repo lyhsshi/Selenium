@@ -10,20 +10,23 @@ public class Patricia_Face {
     
     public static void main(String[] args) throws InterruptedException {
         
+        // abre o firefox
         WebDriver driver = new FirefoxDriver();
+        
+        //acessa o site do facebook
         driver.get("http://www.facebook.com.br/");
 
+        //Coloca o email do login
         WebElement campoDeTexto = driver.findElement(By.id("email"));
         campoDeTexto.sendKeys("pati.kulkamp@hotmail.com");
         
+        //Coloca a senha do login
         WebElement campoDeTexto2 = driver.findElement(By.id("pass"));
         campoDeTexto2.sendKeys("84976005");
          
         driver.findElement(By.id("u_0_l")).click();    
         
-        
-        
-        
+                        
         WebElement campoTexto4 = driver.findElement(By.id("u_0_w"));
         campoTexto4.sendKeys("Teste de Selenium");
         campoTexto4.submit();
