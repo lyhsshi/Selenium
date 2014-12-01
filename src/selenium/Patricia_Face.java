@@ -18,11 +18,11 @@ public class Patricia_Face {
 
         //Coloca o email do login
         WebElement campoDeTexto = driver.findElement(By.id("email"));
-        campoDeTexto.sendKeys("pati.kulkamp@hotmail.com");
+        campoDeTexto.sendKeys("email@.com");
         
         //Coloca a senha do login
         WebElement campoDeTexto2 = driver.findElement(By.id("pass"));
-        campoDeTexto2.sendKeys("xxxx");
+        campoDeTexto2.sendKeys("84976005");
          
         driver.findElement(By.id("u_0_l")).click();    
         
