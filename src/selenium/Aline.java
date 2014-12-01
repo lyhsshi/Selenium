@@ -24,7 +24,7 @@ public class Aline {
         driver.findElement(By.cssSelector("div#top_nav")).findElement(By.linkText("Imagens")).click();
         driver.findElement(By.name("PsCyoqsQHKc61M:")).click();
                 
-        /*
+        /* botão direito mouse
         Actions acao = new Actions(driver);
         acao.moveToElement(driver.findElement(By.name("PsCyoqsQHKc61M:")));
         
