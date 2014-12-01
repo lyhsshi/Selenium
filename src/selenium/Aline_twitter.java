@@ -19,7 +19,7 @@ public class Aline_twitter {
         WebElement email = driver.findElement(By.id("signin-email"));
         email.sendKeys("hk_lyh");
         WebElement senha = driver.findElement(By.id("signin-password"));
-        senha.sendKeys("xxxxxx");
+        senha.sendKeys("xxxxxxx");
         senha.submit();
         
         //aguarda página carregar e manda tweet
